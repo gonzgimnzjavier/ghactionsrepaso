@@ -44,4 +44,4 @@ jobs:
           # Opcional: si ya existe un contenedor en ejecución con ese nombre, se puede detener y eliminar
           docker rm -f daw-web-container || true
           # Inicia el contenedor en segundo plano (-d) mapeando el puerto 80 del contenedor al 8888 de tu máquina
-          docker run -d --name daw-web-container -p 8888:80 foobar/daw-web:latest
+          docker run -d --name daw-web-container -p 8888:80 javigongimenez/daw-web:latest
